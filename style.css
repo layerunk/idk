@@ -4,7 +4,7 @@ html {
 
 
 #Book {
-    padding-top: 70px;
+    padding-top: 140px;
     width: 100px;
     height: 100px;
     border-radius: 20%;
@@ -13,7 +13,7 @@ html {
 #mainhome {
     background: linear-gradient(#c3d428 0%, #74d91c 100%);
     background-repeat: no-repeat;
-    height: 275px;
+    height: 375px;
     width: 100%;
     text-align: center;
 }
@@ -25,20 +25,22 @@ html {
 }
 
 #sectioner {
-    text-decoration: none;
+    position: fixed;
     cursor: pointer;
     z-index: 15;
     width: 100%;
+    margin-top: 0px;
+    top: 0px;
 }
 
 .differ {
-    background: darkblue
-    position: fixed;
+    text-decoration: underline;
+    text-align: center;
     padding-right: 25px;
     padding-left: 25px;
     font-family: cursive;
-    color: gold;
-    font-size: 20px;
+    font-size: 20px;1
+    color:
 }
 
 .differ:hover {
@@ -71,7 +73,7 @@ html {
 #codcon  {
     background: linear-gradient(#c3d428 0%, #74d91c 100%);
     background-repeat: no-repeat;
-    height: 750px;
+    height: 900px;
     width: 100%;
     text-align: center;
 }
@@ -92,4 +94,9 @@ html {
 
 #rew {
     padding-top: 20px
+}
+
+#contac {
+    background: red;
+    color: white;
 }
